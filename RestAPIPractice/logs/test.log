@@ -1,0 +1,84 @@
+15:19:33:017 [main] INFO  com.api.listeners.TestListener - Test Suite Started!!!
+15:19:35:544 [main] INFO  com.api.listeners.TestListener - LoginAPITest1Test is Success!!
+15:19:35:545 [main] INFO  com.api.listeners.TestListener - Description verify if login API is working...
+15:19:35:570 [main] INFO  com.api.listeners.TestListener - Test Suite Finished!!
+15:20:18:249 [main] INFO  com.api.listeners.TestListener - Test Suite Started!!!
+15:20:20:268 [main] INFO  com.api.listeners.TestListener - LoginAPITest1Test is Success!!
+15:20:20:268 [main] INFO  com.api.listeners.TestListener - Description verify if login API is working...
+15:20:20:289 [main] INFO  com.api.listeners.TestListener - Test Suite Finished!!
+15:58:36:684 [main] INFO  com.api.listeners.TestListener - Test Suite Started!!!
+15:58:37:903 [main] INFO  com.api.filters.LoggingFilter - BASE URIhttp://64.227.160.186:8080
+15:58:37:903 [main] INFO  com.api.filters.LoggingFilter - Request HEADER Accept=*/*
+Content-Type=application/json
+15:58:37:904 [main] INFO  com.api.filters.LoggingFilter - Request BODY:{"username":"Divya Bhanu","password":"Divya@1234"}
+15:58:39:060 [main] INFO  com.api.filters.LoggingFilter - Status Code200
+15:58:39:060 [main] INFO  com.api.filters.LoggingFilter - Response HEADER Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Mon, 28 Jul 2025 22:58:38 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+15:58:39:096 [main] INFO  com.api.filters.LoggingFilter - Response BODY:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJkaXZ5YSBiaGFudSIsImlhdCI6MTc1Mzc0MzUxOCwiZXhwIjoxNzUzNzQ3MTE4fQ.iE0aDope9rd6PDZyUR_EYhe9F_GMje69RsIGioCnCKc",
+    "type": "Bearer",
+    "id": 2024,
+    "username": "divya bhanu",
+    "email": "divyabhanunaidu@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+15:58:39:103 [main] ERROR com.api.listeners.TestListener - LoginAPITest1Test Failed!!
+15:58:39:103 [main] INFO  com.api.listeners.TestListener - Description verify if login API is working...
+15:58:39:142 [main] INFO  com.api.listeners.TestListener - Test Suite Finished!!
+16:01:55:638 [main] INFO  com.api.listeners.TestListener - Test Suite Started!!!
+16:01:56:936 [main] INFO  com.api.filters.LoggingFilter - BASE URIhttp://64.227.160.186:8080
+16:01:56:937 [main] INFO  com.api.filters.LoggingFilter - Request HEADER Accept=*/*
+Content-Type=application/json
+16:01:56:937 [main] INFO  com.api.filters.LoggingFilter - Request BODY:{"username":"Divya Bhanu","password":"Divya@1234"}
+16:01:58:124 [main] INFO  com.api.filters.LoggingFilter - Status Code200
+16:01:58:124 [main] INFO  com.api.filters.LoggingFilter - Response HEADER Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Mon, 28 Jul 2025 23:01:57 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+16:01:58:158 [main] INFO  com.api.filters.LoggingFilter - Response BODY:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJkaXZ5YSBiaGFudSIsImlhdCI6MTc1Mzc0MzcxNywiZXhwIjoxNzUzNzQ3MzE3fQ.YeOHYMOeIF3i0uahzdyUlYbDrXc2qtf2EM2dxm4f3NQ",
+    "type": "Bearer",
+    "id": 2024,
+    "username": "divya bhanu",
+    "email": "divyabhanunaidu@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+16:01:58:207 [main] INFO  com.api.listeners.TestListener - LoginAPITest1Test is Success!!
+16:01:58:208 [main] INFO  com.api.listeners.TestListener - Description verify if login API is working...
+16:01:58:230 [main] INFO  com.api.listeners.TestListener - Test Suite Finished!!
